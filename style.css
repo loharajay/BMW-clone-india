@@ -1,9 +1,14 @@
+@font-face {
+    font-family: myFontBMW;
+    src: url(BMWTypeNext\ Pro.ttf);
+  }
 *{
     padding:0;
     margin: 0;
     box-sizing: border-box;
-    font-family: bmwTypeNextWeb, Arial, Helvetica, sans-serif;
+    font-family: myFontBMW, Arial, Helvetica, sans-serif;
 }
+
 
 .navbar{
     display: flex;
@@ -14,8 +19,15 @@
 
     background-color: transparent;
 }
+.nav-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .nav-1 >ul{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .nav-1 >ul >li{
     list-style: none;
@@ -23,11 +35,12 @@
 }
 .nav-2 >ul{
     display: flex;
+    padding-left: 10px;
     
 }
 .nav-2 >ul>li{
     display: flex;
-    padding-left: 10px;
+    padding: 20px;
 }
 .bottom-border{
     height: 2px ;
@@ -44,6 +57,7 @@
 }
 video{
     position: relative;
+    
 }
 .img-para{
    height: 80vh;
