@@ -27,7 +27,7 @@
 }
 .nav-1 >ul{
     display: flex;
-    justify-content: center;
+    
     align-items: center;
 }
 .nav-1 >ul >li{
@@ -44,7 +44,9 @@
 }
 .nav-2 >ul{
     display: flex;
-    padding-left: 10px;
+   
+    align-items: center;
+    
     
 }
 .nav-2 >ul>li{
@@ -58,7 +60,7 @@
 }
 .section-1{
     width: 100%;
-    height: 100vh;
+    height: 112vh;
     padding-left: 100px;
     padding-right: 100px;
     position: absolute;
@@ -70,7 +72,7 @@
 }
 video{
     position: relative;
-    
+    width: 100%;
     
     
 }
